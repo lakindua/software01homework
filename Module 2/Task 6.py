@@ -1,8 +1,15 @@
 import random
 
-code3 = [random.randint(0, 9) for _ in range(3)]
+number01 = random.randint(0,9)
+number02 = random.randint(0,9)
+number03 = random.randint(0,9)
 
-code4 = [random.randint(1, 6) for _ in range(4)]
+no01 = random.randint(1,6)
+no02 = random.randint(1,6)
+no03 = random.randint(1,6)
+no04 = random.randint(1,6)
 
-print("3-digit code:", code3)
-print("4-digit code:", code4)
+
+
+print(number01,number02,number03)
+print(no01,no02,no03,no04)

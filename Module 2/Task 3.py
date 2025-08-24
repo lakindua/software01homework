@@ -4,5 +4,5 @@ width = float(input("Enter the width of the rectangle: "))
 perimeter = 2 * (length + width)
 area = length * width
 
-print(f"The perimeter of the rectangle is {perimeter}")
-print(f"The area of the rectangle is {area}")
+print(f"The perimeter of the rectangle is {perimeter:.2f}")
+print(f"The area of the rectangle is {area:.2f}")
