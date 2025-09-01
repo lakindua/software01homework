@@ -13,4 +13,6 @@ elif gender == "female" and 117 > hemo :
     print("Your hemoglobin level is low")
 elif gender == "female" and hemo > 155 :
     print("Your hemoglobin level is high")
+else:
+    print("Invalid input")
 
